@@ -1,6 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/* Body */
+body {
+	background-image: url(marble.jpg);
+}
+
 /* Calculator Box */
 .box {
 	background-color: #0EFFE6;
@@ -10,6 +15,9 @@
 	position: relative;
 	top: 80px;
 	left: 40%;
+    box-shadow: #9B9B9B 50px 10px 100px;
+	border: 3px solid #333333;
+	border-color: #BFBFBF;
 }
 
 /* Display */
@@ -60,6 +68,7 @@
 	background-color: #D91DE8;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
+    box-shadow: inset 1px 1px 2px;
 }
 .button.number {
 	color: white;

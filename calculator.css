@@ -6,6 +6,7 @@ body {
 	background-image: url(images/marble.jpg);
 }
 
+
 /* Calculator Box */
 .box {
 	background-color: #0EFFE6;
@@ -18,6 +19,20 @@ body {
     box-shadow: #9B9B9B 50px 10px 100px rgba(250, 250, 250, .7);;
 	border: 2px solid #333333;
 	border-color: #BFBFBF;
+}
+
+ /* Placeholder text*/
+::-webkit-input-placeholder { /* Used for Chrome/Opera/Safari */
+  color: red;
+}
+::-moz-placeholder { /* Used for Firefox 19+ */
+  color: red;
+}
+:-ms-input-placeholder { /* Used for Internet Explorer 10+ */
+  color: red;
+}
+:-moz-placeholder { /* Used for Firefox 18- */
+  color: red;
 }
 
 /* Display */
